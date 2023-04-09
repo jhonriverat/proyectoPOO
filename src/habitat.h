@@ -12,17 +12,20 @@ using namespace std;
 class habitat {
 private:
     string nombreHabitat;
+    int temperaturaMinimaHabitat;
+    int temperaturaMaximaHabitat;
     /*
     list<habitat*> listHabitat;
     list<Alimentos*> listAlimentos;
      */
 public:
     habitat();
-    habitat(string);
+    habitat(string, int, int);
     void mostrarInfoHabitat();
-   // void agregarHabitat();
     //get
     string getNombreHabitat();
+    int getTemperaturaMinimaHabitat();
+    int getTemperaturaMaximaHabitat();
     //set
     void setNombreHabitat(string nombreHabitat);
 

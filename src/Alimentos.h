@@ -9,10 +9,9 @@ class Alimentos {
 private:
     string alimentos;
     string claseAlimento;
-    int temperatura;
 public:
     Alimentos();
-    Alimentos(string,string ,int);
+    Alimentos(string,string);
     //Metodos de acceso
     string getAlimentos();
     string getClaseAlimento();

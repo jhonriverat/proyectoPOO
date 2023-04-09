@@ -27,6 +27,8 @@ public:
     void verificarHabitas(string nombreHabitat);
     int verificarExistenciaHabitat(string nombreHabitat);
     string palabraMinuscula(string palabra);
+    int recomendarHabitat(int temperatura);
+    int verificarExistenciaClaseAlimentos(string claseAlimento);
     void agregarAnimal();
 
     //Pruebas

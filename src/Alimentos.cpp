@@ -1,11 +1,11 @@
 #include "Alimentos.h"
 
 //Constructor clase Alimentos
-Alimentos::Alimentos(string _alimentos,string _claseAlimento, int _temperatura) {
+Alimentos::Alimentos(string _alimentos,string _claseAlimento) {
     this->alimentos = _alimentos;
     this->claseAlimento = _claseAlimento;
-    this->temperatura = _temperatura;
 }
+
 //Metodos de acceso
 string Alimentos::getAlimentos() {
     return alimentos;
