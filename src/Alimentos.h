@@ -7,15 +7,22 @@ using namespace std;
 
 class Alimentos {
 private:
-    string alimentos;
+    string alimento1, alimento2,alimento3;
     string claseAlimento;
 public:
     Alimentos();
-    Alimentos(string,string);
+    Alimentos(string,string,string,string);
     //Metodos de acceso
-    string getAlimentos();
+    string getAlimento1();
+    void setAlimento1(string alimento1);
+
     string getClaseAlimento();
-    void setAlimentos(string alimentos);
+
+    string getAlimento2() ;
+    void setAlimento2(string alimento2);
+
+    string getAlimento3() ;
+    void setAlimento3(string alimento3);
 
 
 };

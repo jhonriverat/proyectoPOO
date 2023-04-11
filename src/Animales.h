@@ -13,9 +13,11 @@ private:
     string habitat;
     string especie;
     string claseDeAlimentacion;
+    int horasMinimasDormir;
+    bool yaJugo;
 public:
     Animales();
-    Animales(string,int,int,string,string,string);//constructor
+    Animales(string,int,int,string,string,string,int,bool);//constructor
     void mostrarInfoAnimales();
 
     //metodos de acceso
@@ -23,6 +25,10 @@ public:
     int getTemperaturaMinima();
     string getNombreAnimal();
     string getClaseAlimentacion();
+    int getHorasMinimasDormir();
+    bool getYaJugo();
+
+    void setYaJugo(bool yaJugo);
 
 
 };
