@@ -4,7 +4,6 @@
 #include "habitat.h"
 #include "Alimentos.h"
 #include "Animales.h"
-#include "personas.h"
 #include <list>
 
 
@@ -15,9 +14,10 @@ private:
     list<Animales*> listAnimales;
 
 
-    void mostrarAnimales();
+
 
 public:
+    void mostrarAnimales();
     Zoologico()=default;
     void menu();
     void agregarHabitat();

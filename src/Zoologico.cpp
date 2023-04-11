@@ -329,13 +329,6 @@ void Zoologico::animalesDePrueba() {
     Animales * d = new Animales("rogelio", 8,-12,"selvatico", "canguro","carnivoro",5, true);
     agregarListaAnimales(d);
 
-    //Pruebas
-    /*
-    Trabajador trabajador1("Stiven",123,"masajista",5.3);
-    Personas persona1("Johan", 12342);
-    trabajador1.mostrarTrabajador();
-    persona1.mostrarPersonas();
-     */
     //habitat
     Alimentos * alimentos1 = new Alimentos("aves","insectos","pescado","carnivoro");
     Alimentos * alimentos2 = new Alimentos("hojas","corteza","frutos","herbivoro");

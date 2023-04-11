@@ -14,10 +14,6 @@ private:
     string nombreHabitat;
     int temperaturaMinimaHabitat;
     int temperaturaMaximaHabitat;
-    /*
-    list<habitat*> listHabitat;
-    list<Alimentos*> listAlimentos;
-     */
 public:
     habitat();
     habitat(string, int, int);
